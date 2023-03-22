@@ -1,0 +1,27 @@
+operands
+
+ #include<stdio.h>
+ int main()
+{
+    int x=0,n=4,c;
+    c=x+n;
+    {
+        printf("x+n=%d\n",c);
+    }
+    c=x-n;
+    {
+        printf("x-n=%d\n",c);
+    }
+    c=x*n;
+    {
+        printf("x*n=%d\n",c);
+    }
+    c=x/n;
+    {
+        printf("x/n=%d\n",c);
+    }
+    
+    return 0;
+}
+     
+ 
